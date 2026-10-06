@@ -1,0 +1,373 @@
+{
+  "season": "2026-27",
+  "assignments": [
+    {
+      "clubId": "arsenal",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "aston-villa",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "bournemouth",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "brentford",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "brighton",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "chelsea",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "coventry-city",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "crystal-palace",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "everton",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "fulham",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "hull-city",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "ipswich-town",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "leeds-united",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "liverpool",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "manchester-city",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "manchester-united",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "newcastle-united",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "nottingham-forest",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "sunderland",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "tottenham-hotspur",
+      "leagueId": "premier-league"
+    },
+    {
+      "clubId": "birmingham-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "blackburn-rovers",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "bolton-wanderers",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "bristol-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "burnley",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "cardiff-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "charlton-athletic",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "derby-county",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "lincoln-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "middlesbrough",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "millwall",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "norwich-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "portsmouth",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "preston-north-end",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "queens-park-rangers",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "sheffield-united",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "southampton",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "stoke-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "swansea-city",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "watford",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "west-bromwich-albion",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "west-ham-united",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "wolverhampton-wanderers",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "wrexham",
+      "leagueId": "championship"
+    },
+    {
+      "clubId": "afc-wimbledon",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "barnsley",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "blackpool",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "bradford-city",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "bromley",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "burton-albion",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "cambridge-united",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "doncaster-rovers",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "huddersfield-town",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "leicester-city",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "leyton-orient",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "luton-town",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "mansfield-town",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "milton-keynes-dons",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "notts-county",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "oxford-united",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "peterborough-united",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "plymouth-argyle",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "reading",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "sheffield-wednesday",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "stevenage",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "stockport-county",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "wigan-athletic",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "wycombe-wanderers",
+      "leagueId": "league-one"
+    },
+    {
+      "clubId": "accrington-stanley",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "barnet",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "bristol-rovers",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "cheltenham-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "chesterfield",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "colchester-united",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "crawley-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "crewe-alexandra",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "exeter-city",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "fleetwood-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "gillingham",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "grimsby-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "newport-county",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "northampton-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "oldham-athletic",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "port-vale",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "rochdale",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "rotherham-united",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "salford-city",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "shrewsbury-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "swindon-town",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "tranmere-rovers",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "walsall",
+      "leagueId": "league-two"
+    },
+    {
+      "clubId": "york-city",
+      "leagueId": "league-two"
+    }
+  ]
+}

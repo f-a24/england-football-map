@@ -1,0 +1,56 @@
+:root {
+  /* Sea.svelteの海の色。WebGL描画前に違う色が見えないようにする */
+  --color-bg: #38c4ea;
+  --color-paper: #ffffff;
+  --color-ink: #17324d;
+  --color-ink-muted: #4f6477;
+  --color-tint: #e6f6fc;
+  --shadow-color: rgba(23, 50, 77, 0.22);
+  --sticker-shadow: 0 3px 0 var(--shadow-color);
+  --panel-shadow: 0 4px 0 var(--shadow-color);
+  --focus-ring: 3px solid var(--color-ink);
+  color-scheme: light;
+  font-family: 'M PLUS Rounded 1c', system-ui, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+}
+
+button {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.pill-button {
+  border-radius: 999px;
+  border: 2px solid var(--color-paper);
+  background: var(--color-paper);
+  box-shadow: var(--sticker-shadow);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pill-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--shadow-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "arsenal",
+    "name": "Arsenal",
+    "nameJa": "アーセナル",
+    "shortName": "Arsenal",
+    "city": "London",
+    "stadium": {
+      "name": "Emirates Stadium",
+      "nameJa": "エミレーツ・スタジアム"
+    },
+    "logo": "/logos/arsenal.png",
+    "website": "https://www.arsenal.com",
+    "location": {
+      "lat": 51.555,
+      "lon": -0.1083
+    },
+    "position": {
+      "x": 861.72,
+      "y": 1282.61
+    }
+  },
+  {
+    "id": "aston-villa",
+    "name": "Aston Villa",
+    "nameJa": "アストン・ヴィラ",
+    "shortName": "Aston Villa",
+    "city": "Birmingham",
+    "stadium": {
+      "name": "Villa Park",
+      "nameJa": "ヴィラ・パーク"
+    },
+    "logo": "/logos/aston-villa.png",
+    "website": "https://www.avfc.co.uk",
+    "location": {
+      "lat": 52.5092,
+      "lon": -1.8848
+    },
+    "position": {
+      "x": 696.73,
+      "y": 1121.5
+    }
+  },
+  {
+    "id": "bournemouth",
+    "name": "AFC Bournemouth",
+    "nameJa": "AFCボーンマス",
+    "shortName": "Bournemouth",
+    "city": "Bournemouth",
+    "stadium": {
+      "name": "Dean Court",
+      "nameJa": "ディーン・コート"
+    },
+    "logo": "/logos/bournemouth.png",
+    "website": "https://www.afcb.co.uk",
+    "location": {
+      "lat": 50.7353,
+      "lon": -1.8383
+    },
+    "position": {
+      "x": 686.17,
+      "y": 1437.34
+    }
+  },
+  {
+    "id": "brentford",
+    "name": "Brentford",
+    "nameJa": "ブレントフォード",
+    "shortName": "Brentford",
+    "city": "London",
+    "stadium": {
+      "name": "Brentford Community Stadium",
+      "nameJa": "ブレントフォード・コミュニティ・スタジアム"
+    },
+    "logo": "/logos/brentford.png",
+    "website": "https://www.brentfordfc.com",
+    "location": {
+      "lat": 51.4908,
+      "lon": -0.2887
+    },
+    "position": {
+      "x": 798.57,
+      "y": 1300.15
+    }
+  },
+  {
+    "id": "brighton",
+    "name": "Brighton & Hove Albion",
+    "nameJa": "ブライトン&ホーヴ・アルビオン",
+    "shortName": "Brighton",
+    "city": "Brighton and Hove",
+    "stadium": {
+      "name": "Falmer Stadium",
+      "nameJa": "ファルマー・スタジアム"
+    },
+    "logo": "/logos/brighton.png",
+    "website": "https://www.brightonandhovealbion.com",
+    "location": {
+      "lat": 50.8618,
+      "lon": -0.0833
+    },
+    "position": {
+      "x": 861.67,
+      "y": 1415.34
+    }
+  },
+  {
+    "id": "chelsea",
+    "name": "Chelsea",
+    "nameJa": "チェルシー",
+    "shortName": "Chelsea",
+    "city": "London",
+    "stadium": {
+      "name": "Stamford Bridge",
+      "nameJa": "スタンフォード・ブリッジ"
+    },
+    "logo": "/logos/chelsea.png",
+    "website": "https://www.chelseafc.com",
+    "location": {
+      "lat": 51.4817,
+      "lon": -0.1911
+    },
+    "position": {
+      "x": 851.49,
+      "y": 1313.46
+    }
+  },
+  {
+    "id": "coventry-city",
+    "name": "Coventry City",
+    "nameJa": "コヴェントリー・シティ",
+    "shortName": "Coventry",
+    "city": "Coventry",
+    "stadium": {
+      "name": "Coventry Building Society Arena",
+      "nameJa": "コヴェントリー・ビルディング・ソサエティ・アリーナ"
+    },
+    "logo": "/logos/coventry-city.png",
+    "website": "https://www.ccfc.co.uk",
+    "location": {
+      "lat": 52.4481,
+      "lon": -1.4956
+    },
+    "position": {
+      "x": 722.7,
+      "y": 1141.04
+    }
+  },
+  {
+    "id": "crystal-palace",
+    "name": "Crystal Palace",
+    "nameJa": "クリスタル・パレス",
+    "shortName": "Crystal Palace",
+    "city": "London",
+    "stadium": {
+      "name": "Selhurst Park",
+      "nameJa": "セルハースト・パーク"
+    },
+    "logo": "/logos/crystal-palace.png",
+    "website": "https://www.cpfc.co.uk",
+    "location": {
+      "lat": 51.3983,
+      "lon": -0.0856
+    },
+    "position": {
+      "x": 870.22,
+      "y": 1369.74
+    }
+  },
+  {
+    "id": "everton",
+    "name": "Everton",
+    "nameJa": "エヴァートン",
+    "shortName": "Everton",
+    "city": "Liverpool",
+    "stadium": {
+      "name": "Hill Dickinson Stadium",
+      "nameJa": "ヒル・ディッキンソン・スタジアム"
+    },
+    "logo": "/logos/everton.png",
+    "website": "https://www.evertonfc.com",
+    "location": {
+      "lat": 53.4251,
+      "lon": -3.0028
+    },
+    "position": {
+      "x": 558,
+      "y": 957.3
+    }
+  },
+  {
+    "id": "fulham",
+    "name": "Fulham",
+    "nameJa": "フラム",
+    "shortName": "Fulham",
+    "city": "London",
+    "stadium": {
+      "name": "Craven Cottage",
+      "nameJa": "クレイヴン・コテージ"
+    },
+    "logo": "/logos/fulham.png",
+    "website": "https://www.fulhamfc.com",
+    "location": {
+      "lat": 51.475,
+      "lon": -0.2217
+    },
+    "position": {
+      "x": 820.73,
+      "y": 1323.95
+    }
+  },
+  {
+    "id": "hull-city",
+    "name": "Hull City",
+    "nameJa": "ハル・シティ",
+    "shortName": "Hull City",
+    "city": "Kingston upon Hull",
+    "stadium": {
+      "name": "MKM Stadium",
+      "nameJa": "MKMスタジアム"
+    },
+    "logo": "/logos/hull-city.png",
+    "website": "https://www.wearehullcity.co.uk",
+    "location": {
+      "lat": 53.7461,
+      "lon": -0.3678
+    },
+    "position": {
+      "x": 833.22,
+      "y": 913.72
+    }
+  },
+  {
+    "id": "ipswich-town",
+    "name": "Ipswich Town",
+    "nameJa": "イプスウィッチ・タウン",
+    "shortName": "Ipswich",
+    "city": "Ipswich",
+    "stadium": {
+      "name": "Portman Road",
+      "nameJa": "ポートマン・ロード"
+    },
+    "logo": "/logos/ipswich-town.png",
+    "website": "https://www.itfc.co.uk",
+    "location": {
+      "lat": 52.055,
+      "lon": 1.1453
+    },
+    "position": {
+      "x": 984.53,
+      "y": 1207.83
+    }
+  },
+  {
+    "id": "leeds-united",
+    "name": "Leeds United",
+    "nameJa": "リーズ・ユナイテッド",
+    "shortName": "Leeds",
+    "city": "Leeds",
+    "stadium": {
+      "name": "Elland Road",
+      "nameJa": "エランド・ロード"
+    },
+    "logo": "/logos/leeds-united.png",
+    "website": "https://www.leedsunited.com",
+    "location": {
+      "lat": 53.7778,
+      "lon": -1.5722
+    },
+    "position": {
+      "x": 724.21,
+      "y": 902.41
+    }
+  },
+  {
+    "id": "liverpool",
+    "name": "Liverpool",
+    "nameJa": "リヴァプール",
+    "shortName": "Liverpool",
+    "city": "Liverpool",
+    "stadium": {
+      "name": "Anfield",
+      "nameJa": "アンフィールド"
+    },
+    "logo": "/logos/liverpool.png",
+    "website": "https://www.liverpoolfc.com",
+    "location": {
+      "lat": 53.4308,
+      "lon": -2.9608
+    },
+    "position": {
+      "x": 584.63,
+      "y": 976.04
+    }
+  },
+  {
+    "id": "manchester-city",
+    "name": "Manchester City",
+    "nameJa": "マンチェスター・シティ",
+    "shortName": "Man City",
+    "city": "Manchester",
+    "stadium": {
+      "name": "City of Manchester Stadium",
+      "nameJa": "シティ・オブ・マンチェスター・スタジアム"
+    },
+    "logo": "/logos/manchester-city.png",
+    "website": "https://www.mancity.com",
+    "location": {
+      "lat": 53.48,
+      "lon": -2.1892
+    },
+    "position": {
+      "x": 669.5,
+      "y": 967.43
+    }
+  },
+  {
+    "id": "manchester-united",
+    "name": "Manchester United",
+    "nameJa": "マンチェスター・ユナイテッド",
+    "shortName": "Man Utd",
+    "city": "Manchester",
+    "stadium": {
+      "name": "Old Trafford",
+      "nameJa": "オールド・トラッフォード"
+    },
+    "logo": "/logos/manchester-united.png",
+    "website": "https://www.manutd.com",
+    "location": {
+      "lat": 53.4631,
+      "lon": -2.2913
+    },
+    "position": {
+      "x": 633.88,
+      "y": 980.93
+    }
+  },
+  {
+    "id": "newcastle-united",
+    "name": "Newcastle United",
+    "nameJa": "ニューカッスル・ユナイテッド",
+    "shortName": "Newcastle",
+    "city": "Newcastle upon Tyne",
+    "stadium": {
+      "name": "St James' Park",
+      "nameJa": "セント・ジェームズ・パーク"
+    },
+    "logo": "/logos/newcastle-united.png",
+    "website": "https://www.nufc.co.uk",
+    "location": {
+      "lat": 54.9756,
+      "lon": -1.6217
+    },
+    "position": {
+      "x": 704.71,
+      "y": 698.48
+    }
+  },
+  {
+    "id": "nottingham-forest",
+    "name": "Nottingham Forest",
+    "nameJa": "ノッティンガム・フォレスト",
+    "shortName": "Nott'm Forest",
+    "city": "Nottingham",
+    "stadium": {
+      "name": "City Ground",
+      "nameJa": "シティ・グラウンド"
+    },
+    "logo": "/logos/nottingham-forest.png",
+    "website": "https://www.nottinghamforest.co.uk",
+    "location": {
+      "lat": 52.94,
+      "lon": -1.1328
+    },
+    "position": {
+      "x": 760.64,
+      "y": 1071.82
+    }
+  },
+  {
+    "id": "sunderland",
+    "name": "Sunderland",
+    "nameJa": "サンダーランド",
+    "shortName": "Sunderland",
+    "city": "Sunderland",
+    "stadium": {
+      "name": "Stadium of Light",
+      "nameJa": "スタジアム・オブ・ライト"
+    },
+    "logo": "/logos/sunderland.png",
+    "website": "https://www.safc.com",
+    "location": {
+      "lat": 54.9144,
+      "lon": -1.3883
+    },
+    "position": {
+      "x": 734.29,
+      "y": 711.96
+    }
+  },
+  {
+    "id": "tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "nameJa": "トッテナム・ホットスパー",
+    "shortName": "Spurs",
+    "city": "London",
+    "stadium": {
+      "name": "Tottenham Hotspur Stadium",
+      "nameJa": "トッテナム・ホットスパー・スタジアム"
+    },
+    "logo": "/logos/tottenham-hotspur.png",
+    "website": "https://www.tottenhamhotspur.com",
+    "location": {
+      "lat": 51.6048,
+      "lon": -0.0664
+    },
+    "position": {
+      "x": 871.18,
+      "y": 1251.38
+    }
+  },
+  {
+    "id": "birmingham-city",
+    "name": "Birmingham City",
+    "nameJa": "バーミンガム・シティ",
+    "shortName": "Birmingham",
+    "city": "Birmingham",
+    "stadium": {
+      "name": "St Andrew's",
+      "nameJa": "セント・アンドリュース"
+    },
+    "logo": "/logos/birmingham-city.png",
+    "website": "https://www.bcfc.com",
+    "location": {
+      "lat": 52.4758,
+      "lon": -1.8683
+    },
+    "position": {
+      "x": 690.85,
+      "y": 1154.24
+    }
+  },
+  {
+    "id": "blackburn-rovers",
+    "name": "Blackburn Rovers",
+    "nameJa": "ブラックバーン・ローヴァーズ",
+    "shortName": "Blackburn",
+    "city": "Blackburn",
+    "stadium": {
+      "name": "Ewood Park",
+      "nameJa": "イーウッド・パーク"
+    },
+    "logo": "/logos/blackburn-rovers.png",
+    "website": "https://www.rovers.co.uk",
+    "location": {
+      "lat": 53.7285,
+      "lon": -2.489
+    },
+    "position": {
+      "x": 614.17,
+      "y": 925.1
+    }
+  },
+  {
+    "id": "bolton-wanderers",
+    "name": "Bolton Wanderers",
+    "nameJa": "ボルトン・ワンダラーズ",
+    "shortName": "Bolton",
+    "city": "Bolton",
+    "stadium": {
+      "name": "Toughsheet Community Stadium",
+      "nameJa": "タフシート・コミュニティ・スタジアム"
+    },
+    "logo": "/logos/bolton-wanderers.png",
+    "website": "https://www.bwfc.co.uk",
+    "location": {
+      "lat": 53.5787,
+      "lon": -2.535
+    },
+    "position": {
+      "x": 611.29,
+      "y": 957.47
+    }
+  },
+  {
+    "id": "bristol-city",
+    "name": "Bristol City",
+    "nameJa": "ブリストル・シティ",
+    "shortName": "Bristol City",
+    "city": "Bristol",
+    "stadium": {
+      "name": "Ashton Gate",
+      "nameJa": "アシュトン・ゲート"
+    },
+    "logo": "/logos/bristol-city.png",
+    "website": "https://www.bcfc.co.uk",
+    "location": {
+      "lat": 51.44,
+      "lon": -2.6204
+    },
+    "position": {
+      "x": 602.98,
+      "y": 1325.5
+    }
+  },
+  {
+    "id": "burnley",
+    "name": "Burnley",
+    "nameJa": "バーンリー",
+    "shortName": "Burnley",
+    "city": "Burnley",
+    "stadium": {
+      "name": "Turf Moor",
+      "nameJa": "ターフ・ムーア"
+    },
+    "logo": "/logos/burnley.png",
+    "website": "https://www.burnleyfootballclub.com",
+    "location": {
+      "lat": 53.789,
+      "lon": -2.2302
+    },
+    "position": {
+      "x": 659.82,
+      "y": 887.15
+    }
+  },
+  {
+    "id": "cardiff-city",
+    "name": "Cardiff City",
+    "nameJa": "カーディフ・シティ",
+    "shortName": "Cardiff",
+    "city": "Cardiff",
+    "stadium": {
+      "name": "Cardiff City Stadium",
+      "nameJa": "カーディフ・シティ・スタジアム"
+    },
+    "logo": "/logos/cardiff-city.png",
+    "website": "https://www.cardiffcityfc.co.uk",
+    "location": {
+      "lat": 51.4726,
+      "lon": -3.2033
+    },
+    "position": {
+      "x": 548.57,
+      "y": 1310.14
+    }
+  },
+  {
+    "id": "charlton-athletic",
+    "name": "Charlton Athletic",
+    "nameJa": "チャールトン・アスレティック",
+    "shortName": "Charlton",
+    "city": "London",
+    "stadium": {
+      "name": "The Valley",
+      "nameJa": "ザ・ヴァレー"
+    },
+    "logo": "/logos/charlton-athletic.png",
+    "website": "https://www.cafc.co.uk",
+    "location": {
+      "lat": 51.4864,
+      "lon": 0.0364
+    },
+    "position": {
+      "x": 915.58,
+      "y": 1298.82
+    }
+  },
+  {
+    "id": "derby-county",
+    "name": "Derby County",
+    "nameJa": "ダービー・カウンティ",
+    "shortName": "Derby",
+    "city": "Derby",
+    "stadium": {
+      "name": "Pride Park Stadium",
+      "nameJa": "プライド・パーク・スタジアム"
+    },
+    "logo": "/logos/derby-county.png",
+    "website": "https://www.dcfc.co.uk",
+    "location": {
+      "lat": 52.9148,
+      "lon": -1.4474
+    },
+    "position": {
+      "x": 725.96,
+      "y": 1056.31
+    }
+  },
+  {
+    "id": "lincoln-city",
+    "name": "Lincoln City",
+    "nameJa": "リンカーン・シティ",
+    "shortName": "Lincoln",
+    "city": "Lincoln",
+    "stadium": {
+      "name": "LNER Stadium (Sincil Bank)",
+      "nameJa": "LNERスタジアム（シンシル・バンク）"
+    },
+    "logo": "/logos/lincoln-city.png",
+    "website": "https://www.weareimps.com",
+    "location": {
+      "lat": 53.2185,
+      "lon": -0.5427
+    },
+    "position": {
+      "x": 815.73,
+      "y": 1005.48
+    }
+  },
+  {
+    "id": "middlesbrough",
+    "name": "Middlesbrough",
+    "nameJa": "ミドルズブラ",
+    "shortName": "Middlesbrough",
+    "city": "Middlesbrough",
+    "stadium": {
+      "name": "Riverside Stadium",
+      "nameJa": "リヴァーサイド・スタジアム"
+    },
+    "logo": "/logos/middlesbrough.png",
+    "website": "https://www.mfc.co.uk",
+    "location": {
+      "lat": 54.5783,
+      "lon": -1.2169
+    },
+    "position": {
+      "x": 748.31,
+      "y": 768.99
+    }
+  },
+  {
+    "id": "millwall",
+    "name": "Millwall",
+    "nameJa": "ミルウォール",
+    "shortName": "Millwall",
+    "city": "London",
+    "stadium": {
+      "name": "The Den",
+      "nameJa": "ザ・デン"
+    },
+    "logo": "/logos/millwall.png",
+    "website": "https://www.millwallfc.co.uk",
+    "location": {
+      "lat": 51.486,
+      "lon": -0.0511
+    },
+    "position": {
+      "x": 873.45,
+      "y": 1337.41
+    }
+  },
+  {
+    "id": "norwich-city",
+    "name": "Norwich City",
+    "nameJa": "ノリッジ・シティ",
+    "shortName": "Norwich",
+    "city": "Norwich",
+    "stadium": {
+      "name": "Carrow Road",
+      "nameJa": "キャロウ・ロード"
+    },
+    "logo": "/logos/norwich-city.png",
+    "website": "https://www.canaries.co.uk",
+    "location": {
+      "lat": 52.622,
+      "lon": 1.3092
+    },
+    "position": {
+      "x": 1000.92,
+      "y": 1109.22
+    }
+  },
+  {
+    "id": "portsmouth",
+    "name": "Portsmouth",
+    "nameJa": "ポーツマス",
+    "shortName": "Portsmouth",
+    "city": "Portsmouth",
+    "stadium": {
+      "name": "Fratton Park",
+      "nameJa": "フラットン・パーク"
+    },
+    "logo": "/logos/portsmouth.png",
+    "website": "https://www.portsmouthfc.co.uk",
+    "location": {
+      "lat": 50.7963,
+      "lon": -1.064
+    },
+    "position": {
+      "x": 763.6,
+      "y": 1426.73
+    }
+  },
+  {
+    "id": "preston-north-end",
+    "name": "Preston North End",
+    "nameJa": "プレストン・ノースエンド",
+    "shortName": "Preston",
+    "city": "Preston",
+    "stadium": {
+      "name": "Deepdale",
+      "nameJa": "ディープデイル"
+    },
+    "logo": "/logos/preston-north-end.png",
+    "website": "https://www.pnefc.net",
+    "location": {
+      "lat": 53.7727,
+      "lon": -2.6883
+    },
+    "position": {
+      "x": 593.31,
+      "y": 900.18
+    }
+  },
+  {
+    "id": "queens-park-rangers",
+    "name": "Queens Park Rangers",
+    "nameJa": "クイーンズ・パーク・レンジャーズ",
+    "shortName": "QPR",
+    "city": "London",
+    "stadium": {
+      "name": "Loftus Road",
+      "nameJa": "ロフタス・ロード"
+    },
+    "logo": "/logos/queens-park-rangers.png",
+    "website": "https://www.qpr.co.uk",
+    "location": {
+      "lat": 51.509,
+      "lon": -0.2323
+    },
+    "position": {
+      "x": 829.33,
+      "y": 1289.69
+    }
+  },
+  {
+    "id": "sheffield-united",
+    "name": "Sheffield United",
+    "nameJa": "シェフィールド・ユナイテッド",
+    "shortName": "Sheffield Utd",
+    "city": "Sheffield",
+    "stadium": {
+      "name": "Bramall Lane",
+      "nameJa": "ブラモール・レーン"
+    },
+    "logo": "/logos/sheffield-united.png",
+    "website": "https://www.sufc.co.uk",
+    "location": {
+      "lat": 53.3701,
+      "lon": -1.4709
+    },
+    "position": {
+      "x": 710.21,
+      "y": 992.45
+    }
+  },
+  {
+    "id": "southampton",
+    "name": "Southampton",
+    "nameJa": "サウサンプトン",
+    "shortName": "Southampton",
+    "city": "Southampton",
+    "stadium": {
+      "name": "St Mary's Stadium",
+      "nameJa": "セント・メリーズ・スタジアム"
+    },
+    "logo": "/logos/southampton.png",
+    "website": "https://www.southamptonfc.com",
+    "location": {
+      "lat": 50.9058,
+      "lon": -1.391
+    },
+    "position": {
+      "x": 730.9,
+      "y": 1407.69
+    }
+  },
+  {
+    "id": "stoke-city",
+    "name": "Stoke City",
+    "nameJa": "ストーク・シティ",
+    "shortName": "Stoke",
+    "city": "Stoke-on-Trent",
+    "stadium": {
+      "name": "bet365 Stadium",
+      "nameJa": "bet365スタジアム"
+    },
+    "logo": "/logos/stoke-city.png",
+    "website": "https://www.stokecityfc.com",
+    "location": {
+      "lat": 52.9884,
+      "lon": -2.1751
+    },
+    "position": {
+      "x": 650.22,
+      "y": 1062.85
+    }
+  },
+  {
+    "id": "swansea-city",
+    "name": "Swansea City",
+    "nameJa": "スウォンジー・シティ",
+    "shortName": "Swansea",
+    "city": "Swansea",
+    "stadium": {
+      "name": "Swansea.com Stadium",
+      "nameJa": "スウォンジー・ドットコム・スタジアム"
+    },
+    "logo": "/logos/swansea-city.png",
+    "website": "https://www.swanseacity.com",
+    "location": {
+      "lat": 51.6422,
+      "lon": -3.9351
+    },
+    "position": {
+      "x": 476.49,
+      "y": 1279.62
+    }
+  },
+  {
+    "id": "watford",
+    "name": "Watford",
+    "nameJa": "ワトフォード",
+    "shortName": "Watford",
+    "city": "Watford",
+    "stadium": {
+      "name": "Vicarage Road",
+      "nameJa": "ヴィカレージ・ロード"
+    },
+    "logo": "/logos/watford.png",
+    "website": "https://www.watfordfc.com",
+    "location": {
+      "lat": 51.6499,
+      "lon": -0.4013
+    },
+    "position": {
+      "x": 807.65,
+      "y": 1265.48
+    }
+  },
+  {
+    "id": "west-bromwich-albion",
+    "name": "West Bromwich Albion",
+    "nameJa": "ウェスト・ブロムウィッチ・アルビオン",
+    "shortName": "West Brom",
+    "city": "West Bromwich",
+    "stadium": {
+      "name": "The Hawthorns",
+      "nameJa": "ザ・ホーソンズ"
+    },
+    "logo": "/logos/west-bromwich-albion.png",
+    "website": "https://www.wba.co.uk",
+    "location": {
+      "lat": 52.5091,
+      "lon": -1.964
+    },
+    "position": {
+      "x": 665.08,
+      "y": 1134.44
+    }
+  },
+  {
+    "id": "west-ham-united",
+    "name": "West Ham United",
+    "nameJa": "ウェストハム・ユナイテッド",
+    "shortName": "West Ham",
+    "city": "London",
+    "stadium": {
+      "name": "London Stadium",
+      "nameJa": "ロンドン・スタジアム"
+    },
+    "logo": "/logos/west-ham-united.png",
+    "website": "https://www.whufc.com",
+    "location": {
+      "lat": 51.5386,
+      "lon": -0.0166
+    },
+    "position": {
+      "x": 883.96,
+      "y": 1306.31
+    }
+  },
+  {
+    "id": "wolverhampton-wanderers",
+    "name": "Wolverhampton Wanderers",
+    "nameJa": "ウォルヴァーハンプトン・ワンダラーズ",
+    "shortName": "Wolves",
+    "city": "Wolverhampton",
+    "stadium": {
+      "name": "Molineux Stadium",
+      "nameJa": "モリニュー・スタジアム"
+    },
+    "logo": "/logos/wolverhampton-wanderers.png",
+    "website": "https://www.wolves.co.uk",
+    "location": {
+      "lat": 52.5903,
+      "lon": -2.1301
+    },
+    "position": {
+      "x": 640.34,
+      "y": 1112.63
+    }
+  },
+  {
+    "id": "wrexham",
+    "name": "Wrexham",
+    "nameJa": "レクサム",
+    "shortName": "Wrexham",
+    "city": "Wrexham",
+    "stadium": {
+      "name": "Racecourse Ground",
+      "nameJa": "レースコース・グラウンド"
+    },
+    "logo": "/logos/wrexham.png",
+    "website": "https://www.wrexhamafc.co.uk",
+    "location": {
+      "lat": 53.0645,
+      "lon": -3.0009
+    },
+    "position": {
+      "x": 569.91,
+      "y": 1032.26
+    }
+  },
+  {
+    "id": "afc-wimbledon",
+    "name": "AFC Wimbledon",
+    "nameJa": "AFCウィンブルドン",
+    "shortName": "AFC Wimbledon",
+    "city": "London (Wimbledon)",
+    "stadium": {
+      "name": "Cherry Red Records Stadium (Plough Lane)",
+      "nameJa": "チェリー・レッド・レコーズ・スタジアム（プラウ・レーン）"
+    },
+    "logo": "/logos/afc-wimbledon.png",
+    "website": "https://www.afcwimbledon.co.uk",
+    "location": {
+      "lat": 51.4228,
+      "lon": -0.2044
+    },
+    "position": {
+      "x": 842.67,
+      "y": 1347.91
+    }
+  },
+  {
+    "id": "barnsley",
+    "name": "Barnsley",
+    "nameJa": "バーンズリー",
+    "shortName": "Barnsley",
+    "city": "Barnsley",
+    "stadium": {
+      "name": "Oakwell",
+      "nameJa": "オークウェル"
+    },
+    "logo": "/logos/barnsley.png",
+    "website": "https://www.barnsleyfc.co.uk",
+    "location": {
+      "lat": 53.5526,
+      "lon": -1.4665
+    },
+    "position": {
+      "x": 733.63,
+      "y": 939.97
+    }
+  },
+  {
+    "id": "blackpool",
+    "name": "Blackpool",
+    "nameJa": "ブラックプール",
+    "shortName": "Blackpool",
+    "city": "Blackpool",
+    "stadium": {
+      "name": "Bloomfield Road",
+      "nameJa": "ブルームフィールド・ロード"
+    },
+    "logo": "/logos/blackpool.png",
+    "website": "https://www.blackpoolfc.co.uk",
+    "location": {
+      "lat": 53.8047,
+      "lon": -3.048
+    },
+    "position": {
+      "x": 562.39,
+      "y": 910.16
+    }
+  },
+  {
+    "id": "bradford-city",
+    "name": "Bradford City",
+    "nameJa": "ブラッドフォード・シティ",
+    "shortName": "Bradford",
+    "city": "Bradford",
+    "stadium": {
+      "name": "Valley Parade",
+      "nameJa": "ヴァレー・パレード"
+    },
+    "logo": "/logos/bradford-city.png",
+    "website": "https://www.bradfordcityfc.co.uk",
+    "location": {
+      "lat": 53.8066,
+      "lon": -1.7592
+    },
+    "position": {
+      "x": 690.52,
+      "y": 897.8
+    }
+  },
+  {
+    "id": "bromley",
+    "name": "Bromley",
+    "nameJa": "ブロムリー",
+    "shortName": "Bromley",
+    "city": "Bromley, London",
+    "stadium": {
+      "name": "Hayes Lane",
+      "nameJa": "ヘイズ・レーン"
+    },
+    "logo": "/logos/bromley.png",
+    "website": "https://www.bromleyfc.co.uk",
+    "location": {
+      "lat": 51.4002,
+      "lon": 0.0147
+    },
+    "position": {
+      "x": 905.28,
+      "y": 1330.83
+    }
+  },
+  {
+    "id": "burton-albion",
+    "name": "Burton Albion",
+    "nameJa": "バートン・アルビオン",
+    "shortName": "Burton",
+    "city": "Burton upon Trent",
+    "stadium": {
+      "name": "Pirelli Stadium",
+      "nameJa": "ピレリ・スタジアム"
+    },
+    "logo": "/logos/burton-albion.png",
+    "website": "https://www.burtonalbionfc.co.uk",
+    "location": {
+      "lat": 52.8083,
+      "lon": -1.627
+    },
+    "position": {
+      "x": 704.06,
+      "y": 1080.33
+    }
+  },
+  {
+    "id": "cambridge-united",
+    "name": "Cambridge United",
+    "nameJa": "ケンブリッジ・ユナイテッド",
+    "shortName": "Cambridge",
+    "city": "Cambridge",
+    "stadium": {
+      "name": "Abbey Stadium",
+      "nameJa": "アビー・スタジアム"
+    },
+    "logo": "/logos/cambridge-united.png",
+    "website": "https://www.cambridge-united.co.uk",
+    "location": {
+      "lat": 52.2158,
+      "lon": 0.1538
+    },
+    "position": {
+      "x": 885.38,
+      "y": 1179.86
+    }
+  },
+  {
+    "id": "doncaster-rovers",
+    "name": "Doncaster Rovers",
+    "nameJa": "ドンカスター・ローヴァーズ",
+    "shortName": "Doncaster",
+    "city": "Doncaster",
+    "stadium": {
+      "name": "Eco-Power Stadium",
+      "nameJa": "エコパワー・スタジアム"
+    },
+    "logo": "/logos/doncaster-rovers.png",
+    "website": "https://www.doncasterroversfc.co.uk",
+    "location": {
+      "lat": 53.5017,
+      "lon": -1.133
+    },
+    "position": {
+      "x": 763.64,
+      "y": 952.42
+    }
+  },
+  {
+    "id": "huddersfield-town",
+    "name": "Huddersfield Town",
+    "nameJa": "ハダースフィールド・タウン",
+    "shortName": "Huddersfield",
+    "city": "Huddersfield",
+    "stadium": {
+      "name": "John Smith's Stadium",
+      "nameJa": "ジョン・スミス・スタジアム"
+    },
+    "logo": "/logos/huddersfield-town.png",
+    "website": "https://www.htafc.com",
+    "location": {
+      "lat": 53.6543,
+      "lon": -1.7679
+    },
+    "position": {
+      "x": 703.62,
+      "y": 927.54
+    }
+  },
+  {
+    "id": "leicester-city",
+    "name": "Leicester City",
+    "nameJa": "レスター・シティ",
+    "shortName": "Leicester",
+    "city": "Leicester",
+    "stadium": {
+      "name": "King Power Stadium",
+      "nameJa": "キング・パワー・スタジアム"
+    },
+    "logo": "/logos/leicester-city.png",
+    "website": "https://www.lcfc.com",
+    "location": {
+      "lat": 52.6204,
+      "lon": -1.1422
+    },
+    "position": {
+      "x": 755.78,
+      "y": 1109.5
+    }
+  },
+  {
+    "id": "leyton-orient",
+    "name": "Leyton Orient",
+    "nameJa": "レイトン・オリエント",
+    "shortName": "Leyton Orient",
+    "city": "Leyton, London",
+    "stadium": {
+      "name": "Gaughan Group Stadium (Brisbane Road)",
+      "nameJa": "ゴーハン・グループ・スタジアム（ブリスベン・ロード）"
+    },
+    "logo": "/logos/leyton-orient.png",
+    "website": "https://www.leytonorient.com",
+    "location": {
+      "lat": 51.5588,
+      "lon": -0.0136
+    },
+    "position": {
+      "x": 893.9,
+      "y": 1274.61
+    }
+  },
+  {
+    "id": "luton-town",
+    "name": "Luton Town",
+    "nameJa": "ルートン・タウン",
+    "shortName": "Luton",
+    "city": "Luton",
+    "stadium": {
+      "name": "Kenilworth Road",
+      "nameJa": "ケニルワース・ロード"
+    },
+    "logo": "/logos/luton-town.png",
+    "website": "https://www.lutontown.co.uk",
+    "location": {
+      "lat": 51.8844,
+      "lon": -0.4318
+    },
+    "position": {
+      "x": 818.33,
+      "y": 1234.25
+    }
+  },
+  {
+    "id": "mansfield-town",
+    "name": "Mansfield Town",
+    "nameJa": "マンスフィールド・タウン",
+    "shortName": "Mansfield",
+    "city": "Mansfield",
+    "stadium": {
+      "name": "One Call Stadium (Field Mill)",
+      "nameJa": "ワン・コール・スタジアム（フィールド・ミル）"
+    },
+    "logo": "/logos/mansfield-town.png",
+    "website": "https://www.mansfieldtown.net",
+    "location": {
+      "lat": 53.1499,
+      "lon": -1.1994
+    },
+    "position": {
+      "x": 760.36,
+      "y": 1007.94
+    }
+  },
+  {
+    "id": "milton-keynes-dons",
+    "name": "Milton Keynes Dons",
+    "nameJa": "MKドンズ",
+    "shortName": "MK Dons",
+    "city": "Milton Keynes",
+    "stadium": {
+      "name": "Stadium MK",
+      "nameJa": "スタジアムMK"
+    },
+    "logo": "/logos/milton-keynes-dons.png",
+    "website": "https://www.mkdons.com",
+    "location": {
+      "lat": 52.0087,
+      "lon": -0.7297
+    },
+    "position": {
+      "x": 793.76,
+      "y": 1212.99
+    }
+  },
+  {
+    "id": "notts-county",
+    "name": "Notts County",
+    "nameJa": "ノッツ・カウンティ",
+    "shortName": "Notts County",
+    "city": "Nottingham",
+    "stadium": {
+      "name": "Meadow Lane",
+      "nameJa": "メドウ・レーン"
+    },
+    "logo": "/logos/notts-county.png",
+    "website": "https://www.nottscountyfc.co.uk",
+    "location": {
+      "lat": 52.9483,
+      "lon": -1.135
+    },
+    "position": {
+      "x": 754.05,
+      "y": 1039.94
+    }
+  },
+  {
+    "id": "oxford-united",
+    "name": "Oxford United",
+    "nameJa": "オックスフォード・ユナイテッド",
+    "shortName": "Oxford",
+    "city": "Oxford",
+    "stadium": {
+      "name": "Kassam Stadium",
+      "nameJa": "カッサム・スタジアム"
+    },
+    "logo": "/logos/oxford-united.png",
+    "website": "https://www.oufc.co.uk",
+    "location": {
+      "lat": 51.7166,
+      "lon": -1.2075
+    },
+    "position": {
+      "x": 746.08,
+      "y": 1265.62
+    }
+  },
+  {
+    "id": "peterborough-united",
+    "name": "Peterborough United",
+    "nameJa": "ピーターバラ・ユナイテッド",
+    "shortName": "Peterborough",
+    "city": "Peterborough",
+    "stadium": {
+      "name": "Weston Homes Stadium (London Road)",
+      "nameJa": "ウェストン・ホームズ・スタジアム（ロンドン・ロード）"
+    },
+    "logo": "/logos/peterborough-united.png",
+    "website": "https://www.theposh.com",
+    "location": {
+      "lat": 52.5642,
+      "lon": -0.2434
+    },
+    "position": {
+      "x": 845.66,
+      "y": 1119.27
+    }
+  },
+  {
+    "id": "plymouth-argyle",
+    "name": "Plymouth Argyle",
+    "nameJa": "プリマス・アーガイル",
+    "shortName": "Plymouth",
+    "city": "Plymouth",
+    "stadium": {
+      "name": "Home Park",
+      "nameJa": "ホーム・パーク"
+    },
+    "logo": "/logos/plymouth-argyle.png",
+    "website": "https://www.pafc.co.uk",
+    "location": {
+      "lat": 50.3873,
+      "lon": -4.1503
+    },
+    "position": {
+      "x": 454.97,
+      "y": 1497.86
+    }
+  },
+  {
+    "id": "reading",
+    "name": "Reading",
+    "nameJa": "レディング",
+    "shortName": "Reading",
+    "city": "Reading",
+    "stadium": {
+      "name": "Select Car Leasing Stadium (Madejski Stadium)",
+      "nameJa": "セレクト・カー・リーシング・スタジアム（マデイスキ・スタジアム）"
+    },
+    "logo": "/logos/reading.png",
+    "website": "https://www.readingfc.co.uk",
+    "location": {
+      "lat": 51.4226,
+      "lon": -0.9825
+    },
+    "position": {
+      "x": 771.43,
+      "y": 1318.02
+    }
+  },
+  {
+    "id": "sheffield-wednesday",
+    "name": "Sheffield Wednesday",
+    "nameJa": "シェフィールド・ウェンズデイ",
+    "shortName": "Sheff Wed",
+    "city": "Sheffield",
+    "stadium": {
+      "name": "Hillsborough Stadium",
+      "nameJa": "ヒルズボロ・スタジアム"
+    },
+    "logo": "/logos/sheffield-wednesday.png",
+    "website": "https://www.swfc.co.uk",
+    "location": {
+      "lat": 53.4109,
+      "lon": -1.5001
+    },
+    "position": {
+      "x": 706.37,
+      "y": 960.18
+    }
+  },
+  {
+    "id": "stevenage",
+    "name": "Stevenage",
+    "nameJa": "スティーヴニッジ",
+    "shortName": "Stevenage",
+    "city": "Stevenage",
+    "stadium": {
+      "name": "Lamex Stadium",
+      "nameJa": "ラメックス・スタジアム"
+    },
+    "logo": "/logos/stevenage.png",
+    "website": "https://www.stevenagefc.com",
+    "location": {
+      "lat": 51.9022,
+      "lon": -0.2021
+    },
+    "position": {
+      "x": 850.47,
+      "y": 1226.28
+    }
+  },
+  {
+    "id": "stockport-county",
+    "name": "Stockport County",
+    "nameJa": "ストックポート・カウンティ",
+    "shortName": "Stockport",
+    "city": "Stockport",
+    "stadium": {
+      "name": "Edgeley Park",
+      "nameJa": "エッジリー・パーク"
+    },
+    "logo": "/logos/stockport-county.png",
+    "website": "https://www.stockportcounty.com",
+    "location": {
+      "lat": 53.4058,
+      "lon": -2.1633
+    },
+    "position": {
+      "x": 661.03,
+      "y": 998.8
+    }
+  },
+  {
+    "id": "wigan-athletic",
+    "name": "Wigan Athletic",
+    "nameJa": "ウィガン・アスレティック",
+    "shortName": "Wigan",
+    "city": "Wigan",
+    "stadium": {
+      "name": "Brick Community Stadium (DW Stadium)",
+      "nameJa": "ブリック・コミュニティ・スタジアム（DWスタジアム）"
+    },
+    "logo": "/logos/wigan-athletic.png",
+    "website": "https://www.wiganathletic.com",
+    "location": {
+      "lat": 53.5478,
+      "lon": -2.6556
+    },
+    "position": {
+      "x": 584.7,
+      "y": 938.78
+    }
+  },
+  {
+    "id": "wycombe-wanderers",
+    "name": "Wycombe Wanderers",
+    "nameJa": "ウィコム・ワンダラーズ",
+    "shortName": "Wycombe",
+    "city": "High Wycombe",
+    "stadium": {
+      "name": "Adams Park",
+      "nameJa": "アダムズ・パーク"
+    },
+    "logo": "/logos/wycombe-wanderers.png",
+    "website": "https://www.wwfc.com",
+    "location": {
+      "lat": 51.6304,
+      "lon": -0.8006
+    },
+    "position": {
+      "x": 776.88,
+      "y": 1275.95
+    }
+  },
+  {
+    "id": "accrington-stanley",
+    "name": "Accrington Stanley",
+    "nameJa": "アクリントン・スタンリー",
+    "shortName": "Accrington",
+    "city": "Accrington",
+    "stadium": {
+      "name": "Crown Ground",
+      "nameJa": "クラウン・グラウンド"
+    },
+    "logo": "/logos/accrington-stanley.png",
+    "website": "https://www.accringtonstanley.co.uk",
+    "location": {
+      "lat": 53.7653,
+      "lon": -2.3708
+    },
+    "position": {
+      "x": 624.59,
+      "y": 891.37
+    }
+  },
+  {
+    "id": "barnet",
+    "name": "Barnet",
+    "nameJa": "バーネット",
+    "shortName": "Barnet",
+    "city": "London",
+    "stadium": {
+      "name": "The Hive Stadium",
+      "nameJa": "ザ・ハイヴ・スタジアム"
+    },
+    "logo": "/logos/barnet.png",
+    "website": "https://www.thebeesfc.com",
+    "location": {
+      "lat": 51.6026,
+      "lon": -0.2918
+    },
+    "position": {
+      "x": 839.55,
+      "y": 1258.85
+    }
+  },
+  {
+    "id": "bristol-rovers",
+    "name": "Bristol Rovers",
+    "nameJa": "ブリストル・ローヴァーズ",
+    "shortName": "Bristol Rovers",
+    "city": "Bristol",
+    "stadium": {
+      "name": "Memorial Stadium",
+      "nameJa": "メモリアル・スタジアム"
+    },
+    "logo": "/logos/bristol-rovers.png",
+    "website": "https://www.bristolrovers.co.uk",
+    "location": {
+      "lat": 51.4862,
+      "lon": -2.5831
+    },
+    "position": {
+      "x": 616.67,
+      "y": 1296.03
+    }
+  },
+  {
+    "id": "cheltenham-town",
+    "name": "Cheltenham Town",
+    "nameJa": "チェルトナム・タウン",
+    "shortName": "Cheltenham",
+    "city": "Cheltenham",
+    "stadium": {
+      "name": "Whaddon Road",
+      "nameJa": "ワドン・ロード"
+    },
+    "logo": "/logos/cheltenham-town.png",
+    "website": "https://www.ctfc.com",
+    "location": {
+      "lat": 51.9061,
+      "lon": -2.0603
+    },
+    "position": {
+      "x": 663.97,
+      "y": 1233.72
+    }
+  },
+  {
+    "id": "chesterfield",
+    "name": "Chesterfield",
+    "nameJa": "チェスターフィールド",
+    "shortName": "Chesterfield",
+    "city": "Chesterfield",
+    "stadium": {
+      "name": "SMH Group Stadium",
+      "nameJa": "SMHグループ・スタジアム"
+    },
+    "logo": "/logos/chesterfield.png",
+    "website": "https://www.chesterfield-fc.co.uk",
+    "location": {
+      "lat": 53.2536,
+      "lon": -1.4258
+    },
+    "position": {
+      "x": 729.62,
+      "y": 1018.51
+    }
+  },
+  {
+    "id": "colchester-united",
+    "name": "Colchester United",
+    "nameJa": "コルチェスター・ユナイテッド",
+    "shortName": "Colchester",
+    "city": "Colchester",
+    "stadium": {
+      "name": "Colchester Community Stadium",
+      "nameJa": "コルチェスター・コミュニティ・スタジアム"
+    },
+    "logo": "/logos/colchester-united.png",
+    "website": "https://www.cu-fc.com",
+    "location": {
+      "lat": 51.923,
+      "lon": 0.897
+    },
+    "position": {
+      "x": 959.7,
+      "y": 1230.78
+    }
+  },
+  {
+    "id": "crawley-town",
+    "name": "Crawley Town",
+    "nameJa": "クローリー・タウン",
+    "shortName": "Crawley",
+    "city": "Crawley",
+    "stadium": {
+      "name": "Broadfield Stadium",
+      "nameJa": "ブロードフィールド・スタジアム"
+    },
+    "logo": "/logos/crawley-town.png",
+    "website": "https://www.crawleytownfc.com",
+    "location": {
+      "lat": 51.0997,
+      "lon": -0.1947
+    },
+    "position": {
+      "x": 839.59,
+      "y": 1380.58
+    }
+  },
+  {
+    "id": "crewe-alexandra",
+    "name": "Crewe Alexandra",
+    "nameJa": "クルー・アレクサンドラ",
+    "shortName": "Crewe",
+    "city": "Crewe",
+    "stadium": {
+      "name": "Gresty Road",
+      "nameJa": "グレスティ・ロード"
+    },
+    "logo": "/logos/crewe-alexandra.png",
+    "website": "https://www.crewealex.net",
+    "location": {
+      "lat": 53.0875,
+      "lon": -2.4358
+    },
+    "position": {
+      "x": 622.36,
+      "y": 1028.28
+    }
+  },
+  {
+    "id": "exeter-city",
+    "name": "Exeter City",
+    "nameJa": "エクセター・シティ",
+    "shortName": "Exeter",
+    "city": "Exeter",
+    "stadium": {
+      "name": "St James Park",
+      "nameJa": "セント・ジェームズ・パーク"
+    },
+    "logo": "/logos/exeter-city.png",
+    "website": "https://www.exetercityfc.co.uk",
+    "location": {
+      "lat": 50.7308,
+      "lon": -3.5211
+    },
+    "position": {
+      "x": 517.89,
+      "y": 1438.12
+    }
+  },
+  {
+    "id": "fleetwood-town",
+    "name": "Fleetwood Town",
+    "nameJa": "フリートウッド・タウン",
+    "shortName": "Fleetwood",
+    "city": "Fleetwood",
+    "stadium": {
+      "name": "Highbury Stadium",
+      "nameJa": "ハイベリー・スタジアム"
+    },
+    "logo": "/logos/fleetwood-town.png",
+    "website": "https://www.fleetwoodtownfc.com",
+    "location": {
+      "lat": 53.9165,
+      "lon": -3.0247
+    },
+    "position": {
+      "x": 568.59,
+      "y": 877.93
+    }
+  },
+  {
+    "id": "gillingham",
+    "name": "Gillingham",
+    "nameJa": "ジリンガム",
+    "shortName": "Gillingham",
+    "city": "Gillingham",
+    "stadium": {
+      "name": "Priestfield Stadium",
+      "nameJa": "プリーストフィールド・スタジアム"
+    },
+    "logo": "/logos/gillingham.png",
+    "website": "https://www.gillinghamfootballclub.com",
+    "location": {
+      "lat": 51.3842,
+      "lon": 0.5608
+    },
+    "position": {
+      "x": 937.23,
+      "y": 1324.9
+    }
+  },
+  {
+    "id": "grimsby-town",
+    "name": "Grimsby Town",
+    "nameJa": "グリムズビー・タウン",
+    "shortName": "Grimsby",
+    "city": "Grimsby",
+    "stadium": {
+      "name": "Blundell Park",
+      "nameJa": "ブランデル・パーク"
+    },
+    "logo": "/logos/grimsby-town.png",
+    "website": "https://www.gtfc.co.uk",
+    "location": {
+      "lat": 53.5703,
+      "lon": -0.0464
+    },
+    "position": {
+      "x": 865.36,
+      "y": 944.3
+    }
+  },
+  {
+    "id": "newport-county",
+    "name": "Newport County",
+    "nameJa": "ニューポート・カウンティ",
+    "shortName": "Newport",
+    "city": "Newport",
+    "stadium": {
+      "name": "Rodney Parade",
+      "nameJa": "ロドニー・パレード"
+    },
+    "logo": "/logos/newport-county.png",
+    "website": "https://www.newport-county.co.uk",
+    "location": {
+      "lat": 51.5883,
+      "lon": -2.9878
+    },
+    "position": {
+      "x": 572.32,
+      "y": 1287.96
+    }
+  },
+  {
+    "id": "northampton-town",
+    "name": "Northampton Town",
+    "nameJa": "ノーサンプトン・タウン",
+    "shortName": "Northampton",
+    "city": "Northampton",
+    "stadium": {
+      "name": "Sixfields Stadium",
+      "nameJa": "シックスフィールズ・スタジアム"
+    },
+    "logo": "/logos/northampton-town.png",
+    "website": "https://www.ntfc.co.uk",
+    "location": {
+      "lat": 52.2353,
+      "lon": -0.9333
+    },
+    "position": {
+      "x": 776.67,
+      "y": 1176.47
+    }
+  },
+  {
+    "id": "oldham-athletic",
+    "name": "Oldham Athletic",
+    "nameJa": "オールダム・アスレティック",
+    "shortName": "Oldham",
+    "city": "Oldham",
+    "stadium": {
+      "name": "Boundary Park",
+      "nameJa": "バウンダリー・パーク"
+    },
+    "logo": "/logos/oldham-athletic.png",
+    "website": "https://www.oldhamathletic.co.uk",
+    "location": {
+      "lat": 53.5553,
+      "lon": -2.1286
+    },
+    "position": {
+      "x": 671.99,
+      "y": 935.03
+    }
+  },
+  {
+    "id": "port-vale",
+    "name": "Port Vale",
+    "nameJa": "ポート・ヴェイル",
+    "shortName": "Port Vale",
+    "city": "Stoke-on-Trent",
+    "stadium": {
+      "name": "Vale Park",
+      "nameJa": "ヴェイル・パーク"
+    },
+    "logo": "/logos/port-vale.png",
+    "website": "https://www.port-vale.co.uk",
+    "location": {
+      "lat": 53.0497,
+      "lon": -2.1925
+    },
+    "position": {
+      "x": 654.77,
+      "y": 1030.68
+    }
+  },
+  {
+    "id": "rochdale",
+    "name": "Rochdale",
+    "nameJa": "ロッチデール",
+    "shortName": "Rochdale",
+    "city": "Rochdale",
+    "stadium": {
+      "name": "Spotland Stadium",
+      "nameJa": "スポットランド・スタジアム"
+    },
+    "logo": "/logos/rochdale.png",
+    "website": "https://www.rochdaleafc.co.uk",
+    "location": {
+      "lat": 53.6208,
+      "lon": -2.18
+    },
+    "position": {
+      "x": 645.44,
+      "y": 916.29
+    }
+  },
+  {
+    "id": "rotherham-united",
+    "name": "Rotherham United",
+    "nameJa": "ロザラム・ユナイテッド",
+    "shortName": "Rotherham",
+    "city": "Rotherham",
+    "stadium": {
+      "name": "New York Stadium",
+      "nameJa": "ニューヨーク・スタジアム"
+    },
+    "logo": "/logos/rotherham-united.png",
+    "website": "https://www.themillers.co.uk",
+    "location": {
+      "lat": 53.4279,
+      "lon": -1.362
+    },
+    "position": {
+      "x": 736.89,
+      "y": 972.3
+    }
+  },
+  {
+    "id": "salford-city",
+    "name": "Salford City",
+    "nameJa": "サルフォード・シティ",
+    "shortName": "Salford",
+    "city": "Salford",
+    "stadium": {
+      "name": "Peninsula Stadium (Moor Lane)",
+      "nameJa": "ペニンシュラ・スタジアム（ムーア・レーン）"
+    },
+    "logo": "/logos/salford-city.png",
+    "website": "https://www.salfordcityfc.co.uk",
+    "location": {
+      "lat": 53.5136,
+      "lon": -2.2767
+    },
+    "position": {
+      "x": 642.67,
+      "y": 949.03
+    }
+  },
+  {
+    "id": "shrewsbury-town",
+    "name": "Shrewsbury Town",
+    "nameJa": "シュルーズベリー・タウン",
+    "shortName": "Shrewsbury",
+    "city": "Shrewsbury",
+    "stadium": {
+      "name": "New Meadow",
+      "nameJa": "ニュー・メドウ"
+    },
+    "logo": "/logos/shrewsbury-town.png",
+    "website": "https://www.shrewsburytown.com",
+    "location": {
+      "lat": 52.6886,
+      "lon": -2.7493
+    },
+    "position": {
+      "x": 595.07,
+      "y": 1097.63
+    }
+  },
+  {
+    "id": "swindon-town",
+    "name": "Swindon Town",
+    "nameJa": "スウィンドン・タウン",
+    "shortName": "Swindon",
+    "city": "Swindon",
+    "stadium": {
+      "name": "County Ground",
+      "nameJa": "カウンティ・グラウンド"
+    },
+    "logo": "/logos/swindon-town.png",
+    "website": "https://www.swindontownfc.co.uk",
+    "location": {
+      "lat": 51.5644,
+      "lon": -1.7706
+    },
+    "position": {
+      "x": 692.94,
+      "y": 1293.15
+    }
+  },
+  {
+    "id": "tranmere-rovers",
+    "name": "Tranmere Rovers",
+    "nameJa": "トランメア・ローヴァーズ",
+    "shortName": "Tranmere",
+    "city": "Birkenhead",
+    "stadium": {
+      "name": "Prenton Park",
+      "nameJa": "プレントン・パーク"
+    },
+    "logo": "/logos/tranmere-rovers.png",
+    "website": "https://www.tranmererovers.co.uk",
+    "location": {
+      "lat": 53.3736,
+      "lon": -3.0325
+    },
+    "position": {
+      "x": 555.91,
+      "y": 991.25
+    }
+  },
+  {
+    "id": "walsall",
+    "name": "Walsall",
+    "nameJa": "ウォルソール",
+    "shortName": "Walsall",
+    "city": "Walsall",
+    "stadium": {
+      "name": "Bescot Stadium",
+      "nameJa": "ベスコット・スタジアム"
+    },
+    "logo": "/logos/walsall.png",
+    "website": "https://www.saddlers.co.uk",
+    "location": {
+      "lat": 52.5655,
+      "lon": -1.9909
+    },
+    "position": {
+      "x": 670.94,
+      "y": 1101.72
+    }
+  },
+  {
+    "id": "york-city",
+    "name": "York City",
+    "nameJa": "ヨーク・シティ",
+    "shortName": "York",
+    "city": "York",
+    "stadium": {
+      "name": "York Community Stadium",
+      "nameJa": "ヨーク・コミュニティ・スタジアム"
+    },
+    "logo": "/logos/york-city.png",
+    "website": "https://www.yorkcityfootballclub.co.uk",
+    "location": {
+      "lat": 53.9847,
+      "lon": -1.0528
+    },
+    "position": {
+      "x": 764.72,
+      "y": 872.23
+    }
+  }
+]

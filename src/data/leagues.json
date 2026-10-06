@@ -1,0 +1,34 @@
+[
+  {
+    "id": "premier-league",
+    "name": "Premier League",
+    "nameJa": "プレミアリーグ",
+    "shortName": "Premier League",
+    "order": 1,
+    "color": "#3D195B"
+  },
+  {
+    "id": "championship",
+    "name": "EFL Championship",
+    "nameJa": "チャンピオンシップ",
+    "shortName": "Championship",
+    "order": 2,
+    "color": "#1D428A"
+  },
+  {
+    "id": "league-one",
+    "name": "EFL League One",
+    "nameJa": "リーグ1",
+    "shortName": "League One",
+    "order": 3,
+    "color": "#F57F17"
+  },
+  {
+    "id": "league-two",
+    "name": "EFL League Two",
+    "nameJa": "リーグ2",
+    "shortName": "League Two",
+    "order": 4,
+    "color": "#2E7D32"
+  }
+]
