@@ -30,12 +30,27 @@
   let discColor = $state('#ffffff');
   $effect(() => {
     let disposed = false;
-    new THREE.TextureLoader().load(club.logo, (tex) => {
+    // デコードはcreateImageBitmapでメインスレッドの外に任せる。
+    // 256pxに縮小して読み込み、GPUへの転送量を減らす（ファイルは変更しない）。
+    // 高解像度の画面で最大までズームすると、ややぼやける
+    fetch(club.logo).then(async (res) => {
+      const bitmap = await createImageBitmap(await res.blob(), {
+        imageOrientation: 'flipY',
+        premultiplyAlpha: 'none',
+        resizeWidth: 256,
+        resizeHeight: 256,
+        resizeQuality: 'high',
+      });
+      // 白一色のロゴは白地に溶けるため、背後の円を濃紺にする
+      const light = await isMostlyLight(bitmap);
       if (disposed) return;
+      const tex = new THREE.Texture(bitmap);
+      // ImageBitmapは読み込み時に上下反転済み
+      tex.flipY = false;
       // 指定しないとリニア扱いになり白っぽく褪せる
       tex.colorSpace = THREE.SRGBColorSpace;
-      // 白一色のロゴは白地に溶けるため、背後の円を濃紺にする
-      discColor = isMostlyLight(tex.image) ? INK : '#ffffff';
+      tex.needsUpdate = true;
+      discColor = light ? INK : '#ffffff';
       texture = tex;
     });
     return () => {

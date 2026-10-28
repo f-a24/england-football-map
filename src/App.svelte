@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { Canvas } from '@threlte/core';
-  import Scene from './lib/map/Scene.svelte';
+  import type { Component } from 'svelte';
   import LeagueFilter from './lib/ui/LeagueFilter.svelte';
   import ClubInfoPanel from './lib/ui/ClubInfoPanel.svelte';
   import ClubListFallback from './lib/ui/ClubListFallback.svelte';
@@ -9,15 +8,27 @@
   $effect(() => {
     document.documentElement.lang = locale.current;
   });
+
+  // 3D部分（three.js・Threlte）は別チャンクにし、DOMのUIを描画してから読み込む。
+  // 初期化の重い処理で最初の描画（FCP/LCP）が遅れるのを防ぐため
+  let MapCanvas = $state<Component | null>(null);
+  $effect(() => {
+    // requestAnimationFrame + setTimeoutで、最初のフレームが描画された後に始める
+    requestAnimationFrame(() =>
+      setTimeout(async () => {
+        MapCanvas = (await import('./lib/map/MapCanvas.svelte')).default;
+      }),
+    );
+  });
 </script>
 
 <main>
   <ClubListFallback />
   <LeagueFilter />
   <div class="canvas-wrap">
-    <Canvas>
-      <Scene />
-    </Canvas>
+    {#if MapCanvas}
+      <MapCanvas />
+    {/if}
   </div>
   <ClubInfoPanel />
   <p class="credit">

@@ -23,7 +23,7 @@ npm run fetch-logos    # TheSportsDBからロゴを取得
 
 ```text
 src/
-  lib/map/     # Threlteシーン（Scene / Sea / Terrain / CountryPlate / ClubMarkers / ClubMarker）
+  lib/map/     # Threlteシーン（MapCanvas / Scene / Sea / Terrain / CountryPlate / ClubMarkers / ClubMarker）
   lib/ui/      # DOM UI（LeagueFilter / ClubInfoPanel / ClubListFallback）
   lib/stores/  # 状態（mapState / locale / viewport）
   lib/data/    # types / loadSeason / projection / publicUrl
@@ -51,8 +51,11 @@ scripts/       # fetch-logos.ts / layout-clubs.ts
 - 商標リスクがあることを認識した上で、TheSportsDB経由で公式クレストを使うとユーザーが判断している。
 - 利用規約上、画像は改変しない（再配色・切り出し等をしない）。クレジットの表示も必須（`App.svelte`のフッター）。
 - 白一色のロゴは、[logoTone.ts](src/lib/map/logoTone.ts)で判定して、背後の円を濃紺にする（画像自体は変えない）。
+- ロゴは`createImageBitmap`でメインスレッドの外でデコードし、表示用に256pxに縮小してテクスチャにする（ファイルは変更しない）。`imageOrientation: 'flipY'`で読み込むため、テクスチャは`flipY = false`にする。
 
 ## 地図・描画
+
+- 3D部分は[MapCanvas.svelte](src/lib/map/MapCanvas.svelte)を入口に別チャンクにし、`App.svelte`でDOMのUIを描画した後に`import()`で読み込む。three.js・Threlteを`App.svelte`やDOMのUIから静的にimportしない（最初のJSに含まれ、FCP/LCPが遅れる）。
 
 - 海岸線は[georgique/world-geojson](https://github.com/georgique/world-geojson)を[projection.ts](src/lib/data/projection.ts)の規則で変換したもの（`{ polygons }`形式）。生成スクリプトはリポジトリにないため、作り直す場合は`scripts/`に置く。Isle of Wightなど、元データで別ポリゴンになっていない島は表示されない。
 - 地図はフラットな平面（`ShapeGeometry` + `MeshBasicMaterial`）。イングランドは緑`#7cc576`、それ以外の陸地はすべてグレー`#6b7378`（[Terrain.svelte](src/lib/map/Terrain.svelte)）。国境を共有する地域は、`layer`で高さを0.1ずつずらしてちらつきを防ぐ。グレーの地域は国境線のずれを`seamWidth`の帯で埋める。
@@ -65,7 +68,7 @@ scripts/       # fetch-logos.ts / layout-clubs.ts
 
 ## UI
 
-- 「地図に貼ったステッカー」風：白地に濃紺の文字（`--color-ink` `#17324d`）、下にずらした影、フォントはM PLUS Rounded 1c。フォーカス枠は濃紺3px。色の定義は[app.css](src/app.css)にまとめている。
+- 「地図に貼ったステッカー」風：白地に濃紺の文字（`--color-ink` `#17324d`）、下にずらした影、フォントはM PLUS Rounded 1c（Google Fonts。描画を止めないよう`media="print"`+`onload`で読み込む）。フォーカス枠は濃紺3px。色の定義は[app.css](src/app.css)にまとめている。
 - [LeagueFilter](src/lib/ui/LeagueFilter.svelte)：複数選択できるトグルチップ。オンはリーグ色で塗り、オフは白。状態は先頭の丸の形（塗りつぶし／リング）でも示す。リーグ色の上の文字色は`readableTextOn`で自動的に選ぶ。
 - [ClubInfoPanel](src/lib/ui/ClubInfoPanel.svelte)：表示するのはクラブ名とスタジアム名のみ。
 - [ClubListFallback](src/lib/ui/ClubListFallback.svelte)：アクセシビリティのための**必須要件**。WebGLのマーカーはDOMに存在しないため、同じ情報をDOMの一覧でも提供する。Tabキーまたは「クラブ一覧」ボタンで開く。フォーカスすると、マーカーのハイライトと情報パネルが連動する。リーグごとに見出しを付け、各行には視覚的に隠したリーグ名を入れる。PCでは左のパネル、スマホではボトムシートとして表示する。
@@ -85,7 +88,7 @@ scripts/       # fetch-logos.ts / layout-clubs.ts
 
 ## 未対応・課題
 
-- メインのJSバンドルが約900KBある（three.jsのdraco/basisデコーダが未使用のまま含まれる）。コード分割を検討する
+- Lighthouse（モバイル）のTBTが約1秒残る。主な原因は地図の初期化（92クラブ×Threlteコンポーネント）とクラブ一覧のDOM作成。減らすには構成の変更が必要で、効果は未検証
 - リーグ切り替え時のトランジションなど、演出の強化
 - 地図データの生成スクリプトの整備
 
